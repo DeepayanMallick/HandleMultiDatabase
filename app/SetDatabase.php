@@ -20,21 +20,21 @@ class SetDatabase
         $dbs = array(
 
             'db1' => array(
-                'database' => 'blog1',
-                'username' => 'debian-sys-maint',
-                'password' => 'G0H7Xru852X3zl3a',
+                'database' => 'test_db1',
+                'username' => 'root',
+                'password' => '',
 
             ),
             'db2' => array(
-                'database' => 'blog2',
-                'username' => 'debian-sys-maint',
-                'password' => 'G0H7Xru852X3zl3a',
+                'database' => 'test_db2',
+                'username' => 'root',
+                'password' => '',
 
             ),
             'db3' => array(
-                'database' => 'blog3',
-                'username' => 'debian-sys-maint',
-                'password' => 'G0H7Xru852X3zl3a',
+                'database' => 'test_db3',
+                'username' => 'root',
+                'password' => '',
 
             ),
 
