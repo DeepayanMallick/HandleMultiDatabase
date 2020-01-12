@@ -11,7 +11,7 @@ class SetDatabase
 
     {
 
-        // $db = request()->getHttpHost();
+        $db = request()->getHttpHost();
 
         // $db = $this->host_name;
 
@@ -41,7 +41,7 @@ class SetDatabase
         );
 
 
-        $db = "127.0.0.1:8000";
+        // $db = "127.0.0.1:8000";
 
         switch ($db) {
 

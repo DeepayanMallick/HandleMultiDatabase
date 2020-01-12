@@ -16,10 +16,9 @@
                     You are logged in!
                     <br>
                     <br>
-                    {{$users[0]->first_name}}
+                    {{$users[0]->title}}
                     <br>
                     <br>
-
                     {{$users}}
                 </div>
             </div>
