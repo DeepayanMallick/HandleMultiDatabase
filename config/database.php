@@ -2,7 +2,7 @@
 
 
 use App\Http\Controllers\Type;
-use App\SetDatabase;
+use App\SetDatabase\SetDatabase;
 use Illuminate\Support\Str;
 
 
@@ -11,7 +11,7 @@ $set_db = new SetDatabase();
 
 $db = $set_db->dbSetup();
 
-// dd($db);
+// ddd($db);
 
 return [
 

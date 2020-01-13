@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\SetDatabase;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Log;
@@ -23,6 +23,10 @@ class SetDatabase
         } else {
             $this->host_name = "127.0.0.1:8000";
         }
+
+        // $db_list = Config::get('dbList');
+
+        // $this->db_list = $db_list;
     }
 
 
@@ -32,8 +36,10 @@ class SetDatabase
 
         $db = $this->host_name;
 
-        // $db_list = Config::get('dbList');
-        $db_list = "Hello vai maf kore de plz....";
+        // $db_list = $this->db_list;
+
+        // $db_list = Config::get('mail');
+        // $db_list = config('mail');
 
         // return $db_list;
 
