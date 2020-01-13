@@ -5,10 +5,16 @@ use App\Http\Controllers\Type;
 use App\SetDatabase;
 use Illuminate\Support\Str;
 
-$db = SetDatabase::dbSetup();
 
+
+$set_db = new SetDatabase();
+
+$db = $set_db->dbSetup();
+
+// dd($db);
 
 return [
+
 
     /*
     |--------------------------------------------------------------------------

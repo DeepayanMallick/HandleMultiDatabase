@@ -11,9 +11,21 @@
 |
 */
 
+use App\SetDatabase;
+use App\TestClass;
+
 Route::get('/', function () {
-    return view('welcome');
+    // $db_list = config('dbList');
+
+    // return $db_list["1270018001"];
+
+    $db_list = new TestClass();
+
+    return $db_list->testData();
+
+    // return view('welcome');
 });
+
 Auth::routes();
 
 // Route::get('/import', 'UsersController@import');

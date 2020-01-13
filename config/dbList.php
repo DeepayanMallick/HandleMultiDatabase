@@ -3,19 +3,19 @@
 return [
 
     '1270018000' => [
-        'database' => 'blog1',
+        'database' => 'test_db1',
         'username' => 'debian-sys-maint',
         'password' => 'G0H7Xru852X3zl3a',
     ],
 
     '1270018001' => [
-        'database' => 'blog2',
+        'database' => 'test_db2',
         'username' => 'debian-sys-maint',
         'password' => 'G0H7Xru852X3zl3a',
     ],
 
     '1270018002' => [
-        'database' => 'blog3',
+        'database' => 'test_db3',
         'username' => 'debian-sys-maint',
         'password' => 'G0H7Xru852X3zl3a',
     ],

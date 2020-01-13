@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use App\testClass;
 use App\User;
-use Facade\FlareClient\Stacktrace\File;
 use Illuminate\Http\Request;
+
 
 class HomeController extends Controller
 {
@@ -16,7 +16,7 @@ class HomeController extends Controller
      */
     // public function __construct()
     // {
-    //     $this->middleware('auth');
+    //     $this->middleware('auth');        
     // }
 
     /**
@@ -24,17 +24,8 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index(Request $request)
+    public function index()
     {
-
-        // $test = testClass::testData();
-
-        // dd($test); 
-
-        // $db_list = config('db_list.1270018000');
-
-        // dd($db_list);
-
         $users = User::get();
         $data['users'] = $users;
         return view('home', $data);
